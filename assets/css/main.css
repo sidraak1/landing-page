@@ -584,6 +584,7 @@ input, select, textarea {
 		border: solid 1px #ffffff;
 		margin-bottom: 2rem;
 		padding: 1.5em;
+		width: 300px;
 	}
 
 		.box > :last-child,
@@ -1140,9 +1141,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
@@ -1328,7 +1332,7 @@ input, select, textarea {
 			#header .content p {
 				text-transform: uppercase;
 				letter-spacing: 0.2rem;
-				font-size: 0.8rem;
+				font-size: 1rem;
 				line-height: 2;
 			}
 
@@ -1656,3 +1660,132 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+	
+/* Experience */
+
+	#experience {
+		/* Add general styles for the article */
+	
+		
+		.experience-container {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 2rem; /* Space between columns */
+		}
+		
+		.experience-item {
+			flex: 1 1 45%; /* Allows columns to grow and shrink */
+			border: 1px solid #ddd; /* Optional: border for visual separation */
+			border-radius: 4px;
+			padding: 1rem;
+		}
+		
+		.experience-item h3 {
+			margin-top: 0;
+			font-size: 1em;
+		}
+		
+		ul {
+			margin: 0;
+			padding-left: 20px; /* Indentation for the list */
+		}
+		
+		li {
+			margin-bottom: 0.5em; /* Space between list items */
+		}
+		.title {
+			display: flex;
+			justify-content: space-between; /* Pushes items to opposite ends */
+			align-items: center; /* Vertically centers items */
+			font-size: 1.2em; /* Adjust font size as needed */
+			margin-bottom: 0.5em; /* Space below the header */
+		}
+		
+		.left {
+			/* Styles for the left part */
+		}
+		
+		.right {
+			font-style: italic; /* Italicize the date */
+			font-weight: normal; /* Ensure the date is not bold */
+			color: rgb(223, 217, 217); /* Optional: color to distinguish the date */
+			font-size: 1em; /* Optional: smaller font size for the date */
+		}
+	}	
+
+/* Skills */
+
+	#skills {
+		/* Add general styles for the article */
+
+		
+		.skills-container {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 2rem; /* Space between columns */
+		}
+		
+		.skills-item {
+			flex: 1 1 45%; /* Allows columns to grow and shrink */
+			border: 1px solid #ddd; /* Optional: border for visual separation */
+			border-radius: 4px;
+			padding: 1rem;
+		}
+		
+		.skills-item h3 {
+			margin-top: 0;
+			font-size: 1em;
+		}
+		
+		ul {
+			margin: 0;
+			padding-left: 20px; /* Indentation for the list */
+		}
+		
+		li {
+			margin-bottom: 0.5em; /* Space between list items */
+		}
+		.title {
+			display: flex;
+			justify-content: space-between; /* Pushes items to opposite ends */
+			align-items: center; /* Vertically centers items */
+			font-size: 1.2em; /* Adjust font size as needed */
+			margin-bottom: 0.5em; /* Space below the header */
+		}
+		
+		.left {
+			/* Styles for the left part */
+		}
+		
+		.right {
+			font-style: italic; /* Italicize the date */
+			font-weight: normal; /* Ensure the date is not bold */
+			color: rgb(223, 217, 217); /* Optional: color to distinguish the date */
+			font-size: 0.9em; /* Optional: smaller font size for the date */
+		}
+	}
+	/* Resume Button Styling */
+/* Resume Button Styling */
+.resume-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 13px;
+    color: #fefeff; /* Blue text color */
+    background-color: transparent; /* No background color */
+    border: 1px solid #8aadcd; /* Blue border */
+    border-radius: 25px; /* Fully rounded corners */
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s ease; /* Smooth transition for all properties */
+}
+
+.resume-button:hover {
+    color: #fff; /* White text color on hover */
+    background-color: #4f5c69; /* Blue background color on hover */
+    border-color: #4f5c69; /* Blue border color on hover */
+}
+
+	
+			
+			
+			
